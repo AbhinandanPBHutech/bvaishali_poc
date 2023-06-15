@@ -1,0 +1,33 @@
+.conatiner {
+  height: 350px;
+  background-color: black;
+  .banner_text {
+    color: white;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 400;
+    // line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    padding-left: 4%;
+    flex-direction: column;
+    .view_btn {
+      width: fit-content;
+      padding: 5px 10px;
+      cursor: pointer;
+      color: #000000;
+      margin-top: 2%;
+      font-family: Josefin Sans;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
+}
